@@ -11,7 +11,6 @@
 |
 */
 Route::get('/', function () {
-    echo 123;die;
 });
 /*Route::any(
     '/createCode','Service\ValidateCodeController@create'
