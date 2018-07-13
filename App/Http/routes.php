@@ -10,15 +10,16 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-Route::get('/', function () {
-});
-/*Route::any(
+Route::get(
     '/createCode','Service\ValidateCodeController@create'
 );
-Route::any(
+Route::get(
+    '/','Service\ValidateCodeController@create'
+);
+Route::get(
     '/register','View\MemberController@toregister'
 );
-Route::any(
+Route::get(
     '/login','View\MemberController@tologin'
-);*/
+);
 
